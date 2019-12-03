@@ -297,6 +297,7 @@ body {
   content: "";
   left: 0;
   right: 0;
+  height: 4rem;
 }
 #header:before {
   top: 0;
@@ -389,7 +390,7 @@ body {
   }
 }
 .main-nav-link:hover {
-  color: #ffc324;
+  color: #090cb6;
 }
 #main-nav-toggle {
   display: none;
@@ -400,13 +401,14 @@ body {
 @media screen and (max-width: 479px) {
   #main-nav-toggle {
     display: block;
-    color: #ff9f40;
+    color: #090cb6;
     padding: 1.25rem 1rem 0rem 0rem;
   }
 }
 #main-nav-title {
-  color: #ff9f40;
+  color: #090cb6;
   font-weight: 400;
+  font-size: x-large;
 }
 #sub-nav {
   float: right;
@@ -527,7 +529,7 @@ body {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #ffc324;
+  color: #090cb6;
 }
 .article-entry {
   color: #555;
@@ -582,7 +584,7 @@ a.article-title:hover {
   line-height: 1rem;
 }
 .article-entry a {
-  color: #ff8243;
+  color: #090cb6;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -715,7 +717,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-footer a:hover {
-  color: #ff8243;
+  color: #090cb6;
 }
 .article-tag-list-item {
   float: left;
@@ -798,7 +800,7 @@ a.article-title:hover {
   line-height: 2.1rem;
   font-size: 1rem;
   font-weight: 300;
-  color: #ffc324;
+  color: #090cb6;
 }
 #article-nav-newer .article-nav-caption {
   margin-right: -2px;
@@ -943,7 +945,7 @@ a.article-title:hover {
   margin: 0 0;
 }
 #comments a {
-  color: #ff8243;
+  color: #090cb6;
 }
 .archives-wrap {
   margin: 0 0;
@@ -1008,7 +1010,7 @@ a.article-title:hover {
   line-height: 1.5rem;
 }
 .archive-article-title:hover {
-  color: #ff8243;
+  color: #090cb6;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1062,7 +1064,7 @@ a.article-title:hover {
 }
 #page-nav .prev:hover {
   background: #fff;
-  color: #ffc324;
+  color: #090cb6;
 }
 #page-nav .next {
   float: right;
@@ -1071,7 +1073,7 @@ a.article-title:hover {
 }
 #page-nav .next:hover {
   background: #fff;
-  color: #ffc324;
+  color: #090cb6;
 }
 #page-nav .page-number {
   padding-top: 0.5rem;
@@ -1085,7 +1087,7 @@ a.article-title:hover {
   }
 }
 #page-nav .current {
-  color: #ffc324;
+  color: #090cb6;
   font-weight: 100;
 }
 #page-nav .space {
@@ -1099,7 +1101,7 @@ a.article-title:hover {
   font-weight: 300;
 }
 #footer a {
-  color: #ff8243;
+  color: #090cb6;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1220,7 +1222,7 @@ a.article-title:hover {
   margin-left: 1.5rem;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #ff8243;
+  color: #090cb6;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1304,7 +1306,7 @@ pre .javascript .function {
     border-left: 1px solid #ff8243;
   }
   .mobile-nav-link:hover {
-    color: #ff8243;
+    color: #090cb6;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1329,7 +1331,7 @@ pre .javascript .function {
   border-radius: 3px;
 }
 .widget a {
-  color: #ff8243;
+  color: #090cb6;
   text-decoration: none;
 }
 .widget a:hover {
