@@ -567,19 +567,19 @@ a.article-title:hover {
   margin: 1.5rem 0;
 }
 .article-entry h2 {
-  border-left: 3px solid #ffc324;
+  border-left: 3px solid #00ff7f;
   padding-left: 0.5rem;
   line-height: 2rem;
 }
 .article-entry h3 {
-  border-left: 2px solid #ffc324;
+  border-left: 2px solid #00ff7f;
   padding-left: calc(0.5rem + 1px);
   line-height: 1.2;
 }
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  border-left: 1px solid #ffc324;
+  border-left: 1px solid #00ff7f;
   padding-left: calc(0.5rem + 2px);
   line-height: 1rem;
 }
@@ -996,7 +996,7 @@ a.article-title:hover {
 .archive-article-inner {
   padding: 0.5rem;
   margin-bottom: 1rem;
-  border-left: 2px solid #ffc324;
+  border-left: 2px solid #00a86b;
   margin-left: 0.5rem;
 }
 .archive-article-title {
