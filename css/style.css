@@ -521,7 +521,7 @@ body {
 .article-title {
   text-decoration: none;
   font-size: 2em;
-  font-weight: 100;
+  font-weight: 200;
   color: #555;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -548,6 +548,8 @@ a.article-title:hover {
 .article-entry table {
   line-height: 1.5rem;
   margin: 1.5rem 0;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 .article-entry h1,
 .article-entry h2,
@@ -555,7 +557,7 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  font-weight: 100;
+  font-weight: 500;
 }
 .article-entry h1,
 .article-entry h2,
@@ -567,8 +569,8 @@ a.article-title:hover {
   margin: 1.5rem 0;
 }
 .article-entry h2 {
-  border-left: 3px solid #00ff7f;
-  padding-left: 0.5rem;
+  border-left: 4px solid #2aa800;
+  padding-left: 0.7rem;
   line-height: 2rem;
 }
 .article-entry h3 {
@@ -595,6 +597,8 @@ a.article-title:hover {
 .article-entry dl {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .article-entry img,
 .article-entry video {
