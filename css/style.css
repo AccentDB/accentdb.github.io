@@ -163,7 +163,6 @@ body {
   overflow: hidden;
 }
 #wrap {
-  height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
@@ -616,13 +615,17 @@ body {
   color: #090cb6;
   text-decoration: none;
 }
-.article-entry a.conf,
-.article-entry a color {
+.article-entry a.conf {
+  color: #555;
   text-spacing: 2px;
   font-size: 1.1rem;
   font-weight: 500;
   height: 2.1rem;
   text-decoration: none;
+  margin-right: 3rem;
+}
+.article-entry a.conf:hover {
+  color: #090cb6;
 }
 .article-entry a.button {
   display: inline-block;
@@ -630,14 +633,13 @@ body {
   font-size: 1.1rem;
   font-weight: 500;
   color: #fff;
-  width: 10rem;
-  height: 1.8rem;
+  width: 9rem;
+  height: 1.9rem;
   border-radius: 0.3rem;
   background-color: #090cb6;
   text-align: center;
   vertical-align: middle;
-  line-height: 1.8rem;
-  margin-left: 8rem;
+  line-height: 1.9rem;
 }
 .article-entry a.button:hover {
   cursor: pointer;
@@ -645,7 +647,7 @@ body {
   border-bottom: 0.3rem #00ff7f;
 }
 .article-entry a.button-large {
-  margin-top: 0.4rem;
+  margin-top: 0.7rem;
   display: inline-block;
   font-weight: 500;
   text-spacing: 2px;
@@ -664,12 +666,33 @@ body {
   border-right: 0.3rem #00ff7f;
   border-bottom: 0.3rem #00ff7f;
 }
+.article-entry a.button-bib {
+  display: inline-block;
+  font-weight: 500;
+  text-spacing: 2px;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 10rem;
+  height: 1.9rem;
+  border-radius: 0.3rem;
+  background-color: #090cb6;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.9rem;
+  margin-left: 20rem;
+  position: relative;
+}
+.article-entry a.button-bib:hover {
+  cursor: pointer;
+  border-right: 0.3rem #00ff7f;
+  border-bottom: 0.3rem #00ff7f;
+}
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 .article-entry img,
@@ -1190,14 +1213,14 @@ body {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #2d2d2d;
+  background: #f0f2f5;
   margin: 0 -1.5rem;
   padding: 15px 1.5rem;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
   overflow: auto;
-  color: #ccc;
+  color: #555;
   line-height: 24px;
 }
 .article-entry .highlight .gutter pre,
@@ -1218,6 +1241,10 @@ body {
   background: none;
   text-shadow: none;
   padding: 0;
+}
+.article-entry .highlight {
+  width: 87%;
+  margin-left: 0.5rem;
 }
 .article-entry .highlight pre {
   border: none;
@@ -1264,7 +1291,7 @@ body {
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #2d2d2d;
+  background: #f0f2f5;
   padding: 15px 1.5rem 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -1290,7 +1317,7 @@ body {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background: #f0f2f5;
   color: #999;
   font: 0.85em "Noto Sans KR", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   text-shadow: 0 0;
