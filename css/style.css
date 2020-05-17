@@ -527,15 +527,15 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 2em;
-  font-weight: 200;
+  font-size: 1.9em;
+  font-weight: 400;
   color: #555;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  transition: color 0.2s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  transition: color 0.5s;
 }
-a.article-title:hover {
+.article-title:hover {
   color: #090cb6;
 }
 .article-entry {
@@ -584,7 +584,7 @@ a.article-title:hover {
   border-left: 3px solid #090cb6;
   padding-left: calc(0.5rem + 1px);
   line-height: 1rem;
-  margin-left: 10rem;
+  margin-left: 5rem;
 }
 .article-entry h4,
 .article-entry h5,
@@ -597,8 +597,39 @@ a.article-title:hover {
   color: #090cb6;
   text-decoration: none;
 }
-.article-entry a:hover {
-  text-decoration: underline;
+.article-entry a.button {
+  display: block;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 8rem;
+  height: 2.2rem;
+  border-radius: 0.3rem;
+  background-color: #090cb6;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.2rem;
+}
+.article-entry a.button:hover {
+  cursor: pointer;
+  border-right: 0.3rem #00ff7f;
+  border-bottom: 0.3rem #00ff7f;
+}
+.article-entry a.button-large {
+  display: block;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 18rem;
+  height: 2.2rem;
+  border-radius: 0.3rem;
+  background-color: #090cb6;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.2rem;
+}
+.article-entry a.button-large:hover {
+  cursor: pointer;
+  border-right: 0.3rem #00ff7f;
+  border-bottom: 0.3rem #00ff7f;
 }
 .article-entry ul,
 .article-entry ol,
@@ -619,10 +650,9 @@ a.article-title:hover {
   border: none;
 }
 .article-entry table {
-  width: 67%;
   border-collapse: collapse;
   border-spacing: 1rem;
-  margin-left: -4rem;
+  margin-left: 5rem;
 }
 .article-entry th {
   font-weight: bold;
@@ -821,7 +851,7 @@ a.article-title:hover {
 }
 .article-nav-title {
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 1.95rem;
 }
 .article-share-box {
