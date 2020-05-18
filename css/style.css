@@ -299,7 +299,7 @@ body {
   text-align: center;
   position: sticky;
   top: 0;
-  background-color: #f8f8ff;
+  background-color: #fff;
   z-index: 40;
 }
 #header:before,
