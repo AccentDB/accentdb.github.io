@@ -563,7 +563,7 @@ body {
 }
 .article-entry {
   color: #555;
-  padding: 0 1.5rem;
+  padding: 0 10rem 0 1.5rem;
   font-weight: 300;
 }
 .article-entry:before,
@@ -623,33 +623,69 @@ body {
 .article-entry a.conf {
   color: #555;
   text-spacing: 2px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   height: 2.1rem;
   text-decoration: none;
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
 .article-entry a.conf:hover {
   color: #090cb6;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
 }
 .article-entry a.button {
   display: inline-block;
   text-spacing: 2px;
+  margin-right: 1rem;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #fff;
-  width: 9rem;
-  height: 1.9rem;
+  color: #090cb6;
+  margin-top: 1rem;
+  width: 10rem;
+  height: 1.8rem;
   border-radius: 0.3rem;
-  background-color: #090cb6;
+  background-color: #fff;
   text-align: center;
   vertical-align: middle;
-  line-height: 1.9rem;
+  line-height: 1.8rem;
+  border: 0.1rem solid #090cb6;
 }
 .article-entry a.button:hover {
   cursor: pointer;
-  border-right: 0.3rem #00ff7f;
-  border-bottom: 0.3rem #00ff7f;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #090cb6;
+  color: #fff;
+}
+.article-entry a.button-download {
+  display: inline-block;
+  text-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.1rem;
+  margin: auto 0;
+  color: #090cb6;
+  width: 8rem;
+  height: 1.2rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.2rem;
+  border: 0.1rem solid #fff;
+}
+.article-entry a.button-download:hover {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  border: 0.1rem solid #090cb6;
 }
 .article-entry a.button-large {
   margin-top: 0.7rem;
@@ -657,40 +693,50 @@ body {
   font-weight: 500;
   text-spacing: 2px;
   font-size: 1.1rem;
-  color: #fff;
+  color: #090cb6;
   width: 18rem;
-  height: 2.1rem;
+  height: 2rem;
   border-radius: 0.3rem;
-  background-color: #090cb6;
+  background-color: #fff;
   text-align: center;
   vertical-align: middle;
-  line-height: 2.1rem;
+  line-height: 2rem;
+  border: 0.1rem solid #090cb6;
 }
 .article-entry a.button-large:hover {
   cursor: pointer;
-  border-right: 0.3rem #00ff7f;
-  border-bottom: 0.3rem #00ff7f;
+  background-color: #090cb6;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
 }
 .article-entry a.button-bib {
   display: inline-block;
   font-weight: 500;
   text-spacing: 2px;
   font-size: 1.1rem;
-  color: #fff;
+  color: #090cb6;
   width: 11rem;
-  height: 1.9rem;
+  height: 1.8rem;
   border-radius: 0.3rem;
-  background-color: #090cb6;
+  background-color: #fff;
   text-align: center;
   vertical-align: middle;
-  line-height: 1.9rem;
-  margin-left: 18rem;
+  line-height: 1.8rem;
+  float: right;
   position: relative;
+  border: 0.1rem solid #090cb6;
 }
 .article-entry a.button-bib:hover {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #090cb6;
+  color: #fff;
   cursor: pointer;
-  border-right: 0.3rem #00ff7f;
-  border-bottom: 0.3rem #00ff7f;
 }
 .article-entry ul,
 .article-entry ol,
@@ -698,6 +744,7 @@ body {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 1rem;
+  text-spacing: 0.1rem;
   font-weight: 400;
 }
 .article-entry img,
@@ -1248,7 +1295,7 @@ body {
   padding: 0;
 }
 .article-entry .highlight {
-  width: 87%;
+  width: 95%;
   margin-left: 0.5rem;
 }
 .article-entry .highlight pre {
@@ -1284,6 +1331,7 @@ body {
 .article-entry .highlight .gutter pre {
   text-align: right;
   padding-right: 20px;
+  display: none;
 }
 .article-entry .highlight .line {
   height: 24px;
